@@ -4,16 +4,7 @@
    Note: ES6 (Arrow functions)
  */
 
-
 describe('Exercise 2.', () => {
-
-  it('should pass.', () => {
-     expect(1).toEqual(1);
-  })
-
-  it('should be false', () => {
-    expect(false).toBe.false;
-  })
 
 
   it('what will happen due to async call', () => {
