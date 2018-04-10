@@ -21,6 +21,10 @@ async1(1000, 'Hi').then(msg => {
 }).
 then(msg => {
   console.log("msg2: " + msg);
-});
+}).
+catch((reason) => {
+  console.error(`ERROR: ${reason}`);
+})
+
 
 console.log("== END ==");

@@ -1,3 +1,4 @@
+// Promises - example of fufilling always with 'Yes'
 
 console.log("Start");
 
